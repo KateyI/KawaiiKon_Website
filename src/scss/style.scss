@@ -2,12 +2,34 @@
   box-sizing: border-box;
 }
 
+a {
+  color: #f7b8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff64fa;
+  text-decoration: underline;
+}
+
+.nav {
+width: 100%;
+}
+
+.nav ul li{
+    list-style:none;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px;
+    padding-right:20px;
+}
+
+.homepage-image {
+  width: 100%;
+  height: 0, auto;
+}
+
 .homepage {
   width: 100%;
   height:  0 auto;
-}
-
-.nav-large {
-  background-color: #000;
-  justify-content: space-between;
 }
