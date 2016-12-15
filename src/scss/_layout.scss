@@ -3,22 +3,35 @@
 }
 
 a {
-  color: $primary-color;
+  font-family: "Crimson Text", serif;
+  color: $lightpink;
   text-decoration: none;
 }
 
 a:hover {
-  color: $hover-color;
-  text-decoration: underline;
+  color: $darkpink;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.nav {
-width: 100%;
+a:active {
+  background-color: $navyblue;
+  opacity: 0.7;
 }
 
-.nav ul li{
-    list-style:none;
-    text-decoration:none;
-    display: inline-block;
-    width: 100%;
+h1 {
+  font-family: "Crimson Text", serif;
+  font-weight: bold 700;
+}
+
+h2 {
+  font-family: "Crimson Text", serif;
+}
+
+h3 {
+  font-family: "Crimson Text", serif;
+}
+
+p {
+  font-family: "Catamaran", san-serif;
 }
