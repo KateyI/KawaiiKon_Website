@@ -1,0 +1,16 @@
+.registration {
+  display: flex;
+
+  &__adpic {
+    width: 50%;
+    align-content: flex-end;
+    align-items: flex-end;
+  }
+
+  &__header {
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    color: $navyblue;
+  }
+}
