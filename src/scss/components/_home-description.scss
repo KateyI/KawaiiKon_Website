@@ -5,3 +5,10 @@
   font-weight: bold;
   font-size: 3rem;
 }
+
+.description_content {
+  display: flex;
+  align-items: center;
+  background-color: $whitetrans;
+  padding: 20px;
+}

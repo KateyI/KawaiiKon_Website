@@ -1,0 +1,20 @@
+@mixin button($color: $lightpink, $size: 20px) {
+  background-color: $color;
+  padding: $size;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: $white;
+}
+
+.registration-button {
+  @include button($lightpink, 5px);
+
+  align-self: flex-end;
+  align-content: flex-end;
+  justify-content: space-around;
+}
+
+.registration-button:hover {
+  @include button($darkpink, 5px);
+}
