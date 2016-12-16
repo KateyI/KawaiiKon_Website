@@ -19,10 +19,15 @@
   @include button($darkpink, 5px);
 }
 
-.volenteer-button {
-  @include button($lightpink, 5px);
+.volunteer-button {
+  @include button($lightpink, 20px);
+
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  align-content: flex-start;
 }
 
-.volenteer-button:hover {
-  @include button($darkpink, 5px);
+.volunteer-button:hover {
+  @include button($darkpink, 20px);
 }
