@@ -18,3 +18,11 @@
 .registration-button:hover {
   @include button($darkpink, 5px);
 }
+
+.volenteer-button {
+  @include button($lightpink, 5px);
+}
+
+.volenteer-button:hover {
+  @include button($darkpink, 5px);
+}
