@@ -1,0 +1,24 @@
+.information {
+  display: flex;
+
+  &__header {
+    align-content: center;
+    color: $navyblue;
+  }
+
+  &__subhead {
+    color: $navyblue;
+  }
+
+  &__what {
+    padding-right: 20px;
+  }
+
+  &__where {
+    padding-right: 290px;
+  }
+
+  &__help {
+    padding-right: 250px;
+  }
+}

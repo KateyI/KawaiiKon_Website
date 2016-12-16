@@ -18,7 +18,25 @@
 .nav-wrapper {
   background-image: url("images/homepage.jpg");
   width: 100%;
-  height: 1000px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav-wrapper-info {
+  background-image: url("images/information-picture.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav-registration {
+  background-image: url("images/registration-picture.jpg");
+  width: 100%;
+  height: 600px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
